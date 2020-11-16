@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: #333;
+  background: #72efdd;
   color: #fff;
   font-size: 1.1em;
   line-height: 1.5;
@@ -36,10 +36,12 @@ p {
   padding: 1em 2em;
   border: 1px solid #666;
   margin: 0.5em 0;
+  transition: all 0.3s ease;
+  border-radius: 0.5rem;
 }
 
 .btn:hover {
-  background: #eaeaea;
+  background: #fff;
   color: #333;
 }
 
